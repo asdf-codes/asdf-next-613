@@ -10,7 +10,7 @@ export default function Home() {
         
         <link rel="icon" href="/icon.png" />
       </Head>
-        
+        welcome to my website
         <Newsletter/>
     </Layout>
     </>
