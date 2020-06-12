@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import {Footer} from './Footer'
 
 const name = '613'
 export const siteTitle = 'Guide to you favourite city'
@@ -52,9 +53,8 @@ export default function Layout({ children, home }) {
 
       `}</style>
       
-      <footer className={styles.footer}>
+      <Footer/>
       
-      </footer>
       
     </div>
   )

@@ -21,6 +21,14 @@ export default () => {
 
   return (
     <div className="flex flex-col items-center w-full p-8 border-gray-500 border-solid border rounded-sm mt-8">
+       <div className="notification"> 
+      {state === "ERROR" && (
+        <p className="notification-error">{errorMessage}</p>
+      )}
+      {state === "SUCCESS" && (
+        <p className="notification-success">Success!</p>
+      )}
+      </div>
       <div className="inputDiv">
         <input
           className=""
@@ -30,8 +38,8 @@ export default () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <button
-          className={`lg:ml-2 w-full lg:w-1/3 shadow bg-brand2 focus:shadow-outline focus:outline-none text-center text-white font-bold py-2 px-4 rounded flex ${
-            state === "LOADING" ? "button-gradient-loading" : ""
+          className={`${
+            state === "LOADING" ? "button-loading" : ""
           }`}
           type="button"
           disabled={state === "LOADING"}
@@ -41,26 +49,29 @@ export default () => {
         </button>
         <p className={utilStyles.pp}>For those who ♡ Ottawa and want to make it a better place for everyone</p>
       </div>
-      <div className="notification"> 
-      {state === "ERROR" && (
-        <p className="errorMe">{errorMessage}</p>
-      )}
-      {state === "SUCCESS" && (
-        <p className="w-1/2 mt-2 text-green-600">Success!</p>
-      )}
-      </div>
+     
       <style jsx>{` 
+
+        .button-loading {
+            color: black
+          }
 
         .notification {
           text-align: center;
           margin-top: 3rem;
-          color: #D03838;
+          
           background-color: #white;
           font-size: 18px; 
           font-family: Courier;
-          
-          
           border-radius: 6px;
+        }
+
+        .notification-error {
+          color: #D03838;
+        }
+
+        .notification-success {
+          color: #38D09A;
         }
       
         .inputDiv {
