@@ -26,7 +26,7 @@ export default () => {
         <p className="notification-error">{errorMessage}</p>
       )}
       {state === "SUCCESS" && (
-        <p className="notification-success">Success!</p>
+        <p className="notification-success">Success ♡ Check your email ♡ Maybe in Promotions tab?</p>
       )}
       </div>
       <div className="inputDiv">
