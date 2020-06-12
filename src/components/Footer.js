@@ -5,7 +5,7 @@ export const Footer = () => {
         <>
         <div>
 
-        New for You. Not for Sale.
+        News for You. Not for Sale.
       
         <style jsx>{`
             
