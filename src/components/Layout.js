@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/icon.png" />
         <meta
           name="description"
-          content="news for those who ♡ Ottawa and National Capital Region "
+          content="For those who ♡ Ottawa and want to make it a better place for everyone "
         />
         <meta
           property="og:image"
