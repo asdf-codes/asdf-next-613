@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/613.gif" />
         <meta
           name="description"
           content="For those who ♡ Ottawa and want to make it a better place for everyone "

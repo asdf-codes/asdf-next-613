@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
       <Head>
         
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/613.gif" />
       </Head>
         <Newsletter/>
 
