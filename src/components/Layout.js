@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
         
           <>
             <img
-              src="/icon.png"
+              src="/613.gif"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -47,6 +47,11 @@ export default function Layout({ children, home }) {
       )} */}
 <style jsx>{` * {
   text-align: center;
+  }
+  
+  img:hover{
+    backgroundImg: url("./613.gif")
+  }
 }
 
 
