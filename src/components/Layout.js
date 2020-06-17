@@ -3,6 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import {Footer} from './Footer'
+import {ChangingText} from './ChangingText'
 
 const name = '613'
 export const siteTitle = 'Guide to you favourite city'
@@ -31,8 +32,8 @@ export default function Layout({ children, home }) {
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
-            <h2 className={utilStyles.heading2Xl}>Welcome</h2>
-            
+            {/* <h2 className={utilStyles.heading2Xl}></h2> */}
+            <ChangingText/>
           </>
         
       </header>

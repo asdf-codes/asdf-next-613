@@ -33,7 +33,7 @@ export default () => {
         <input
           className=""
           type="text"
-          placeholder="justin @ uottawa"
+          placeholder="welcome @ 613.news"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
