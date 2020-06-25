@@ -89,17 +89,13 @@ export default () => {
           text-align: center;
           border: none;
           border-radius: 6px;  
-          border: 2.1px solid #D0D0D0;      
+          border: 1.4px solid #D0D0D0;  
+          transition: 0.3s;
         }
         .inputDiv input:focus{
-          
-          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);    
-        }
-
-        .inputDiv input:focus{
-          outline: none;
-          
-         
+          border: 1.4px solid #D0D0D0;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);   
+          outline: none; 
         }
 
         .inputDiv input[type=text]{
