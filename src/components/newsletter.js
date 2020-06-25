@@ -85,11 +85,15 @@ export default () => {
           padding: 0.5rem;
           min-width: 125px;    
           width:100%;
-          font-size: max(24px);      
+          font-size: max(22px);      
           text-align: center;
           border: none;
           border-radius: 6px;  
-                
+          border: 2.1px solid #D0D0D0;      
+        }
+        .inputDiv input:focus{
+          
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);    
         }
 
         .inputDiv input:focus{
@@ -118,7 +122,7 @@ export default () => {
         }
       
         .inputDiv button:hover {
-          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
           color: black;
         }
 
