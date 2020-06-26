@@ -9,6 +9,11 @@ export const ChangingText = () => {
         
             .sellingPoint {
                 font-style: italic;
+                margin: 0;
+            }
+
+            h1 {
+                margin-bottom: 0px;
             }
 
             span:before {
