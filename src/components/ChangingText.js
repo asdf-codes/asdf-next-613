@@ -4,7 +4,13 @@ export const ChangingText = () => {
     return(
         <div className="wrapper">
             <h1><span></span></h1>
+            <p className="sellingPoint"> "We send you a newsletter once a week. No spam. No advertizing. No bull💩."</p>
         <style jsx>{`
+        
+            .sellingPoint {
+                font-style: italic;
+            }
+
             span:before {
                 content: '';
                 animation: animate infinite 3s;
