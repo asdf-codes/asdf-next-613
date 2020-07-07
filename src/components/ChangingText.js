@@ -4,7 +4,7 @@ export const ChangingText = () => {
     return(
         <div className="wrapper">
             <h1><span></span></h1>
-            <p className="sellingPoint"> "We send you a newsletter once a week. No spam. No advertizing. No bull💩."</p>
+            <p className="sellingPoint"> "They just send you a newsletter once a week. No spam. No advertizing. No bull💩."</p>
         <style jsx>{`
         
             .sellingPoint {

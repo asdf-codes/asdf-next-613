@@ -82,13 +82,13 @@ export default () => {
         }
 
         .inputDiv input{
-          padding: 0.5rem;
+          padding: 0.6rem;
           min-width: 125px;    
           width:100%;
-          font-size: max(22px);      
+          font-size: max(20px);      
           text-align: center;
           border: none;
-          border-radius: 6px;  
+          border-radius: 10px ;  
           border: 1.4px solid #D0D0D0;  
           transition: 0.3s;
         }
@@ -106,7 +106,7 @@ export default () => {
           margin-top: 1rem;
           border: none;
           
-          border-radius: 6px;
+          border-radius: 10px;
           cursor: pointer;
           padding: 0.5rem;
           min-width: 125px;    
