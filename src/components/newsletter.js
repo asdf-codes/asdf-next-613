@@ -26,7 +26,7 @@ export default () => {
         <p className="notification-error">{errorMessage}</p>
       )}
       {state === "SUCCESS" && (
-        <p className="notification-success">Success ♡ Check your email ♡ Maybe in Promotions tab?</p>
+        <p className="notification-success"><a className="link" href="mailto:"> Success ♡ Check your email ♡ Maybe in Promotions tab? </a></p>
       )}
       </div>
       <div className="inputDiv">
@@ -51,6 +51,10 @@ export default () => {
       </div>
      
       <style jsx>{` 
+
+        .link {
+          color: #38D09A;
+        }
 
         .button-loading {
             color: black
