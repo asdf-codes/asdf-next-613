@@ -119,6 +119,7 @@ export default () => {
           font-weight: 400;   
           text-align: center;
           transition: 0.3s;
+          background: #F0F0F0;
         }
       
         .inputDiv button:hover {
