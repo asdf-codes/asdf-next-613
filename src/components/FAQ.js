@@ -10,7 +10,7 @@ export const Faq = (props) => {
 
     function toggleAccordion() {
         setActiveState(setActive === "" ? "active" : "");
-        setHeightState(setActive === "active" ? "0px" : `${content.current.scrollHeight + 25}px`);
+        setHeightState(setActive === "active" ? "0px" : `${content.current.scrollHeight + 20}px`);
     }
 
     return(
@@ -18,6 +18,7 @@ export const Faq = (props) => {
         <div>
             <div className="item">
                 <button className={`accordion ${setActive}`} onClick={toggleAccordion}> 
+                    <p className="accordion__title">{props.icon}</p>
                     <p className="accordion__title">{props.question}</p>
                 </button>
                 <div onClick={toggleAccordion} ref={content} style={{ maxHeight: `${setHeight}`}} className="accordion__content" >
@@ -26,6 +27,10 @@ export const Faq = (props) => {
             </div>
         </div>
         <style jsx>{`
+            p {
+                line-height: 0;
+            }
+
             .item {
                 margin: 0.5rem 0;
                 
@@ -33,7 +38,7 @@ export const Faq = (props) => {
 
             .accordion {
                 width: 100%;
-                height: 4vh;
+                padding: 0.3rem;
                 background: none;
                 border: none;
                 display: flex;
@@ -42,6 +47,8 @@ export const Faq = (props) => {
                 border-radius: 10px;
                 transition: 0.3s;
                 cursor: pointer;
+                border: 1.4px solid #D0D0D0;
+                
             }
 
 
@@ -55,6 +62,8 @@ export const Faq = (props) => {
                 font-weight: normal;
                 font-size: 20px;
                 color: black;
+                font-weight: ;
+                padding-left: 1rem;
                 
                 
             }
@@ -72,11 +81,11 @@ export const Faq = (props) => {
 
             .accordion__text {
                 font-family: sans-serif;
-                font-size: 20px;
+                font-size: 18px;
                 color: black;
                 max-width: 45rem;
                 text-align: left;
-                padding: 1rem 0 3rem 1rem;
+                padding: 1rem 1rem 1rem 1rem;
                 
             }
 
