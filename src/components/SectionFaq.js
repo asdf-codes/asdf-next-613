@@ -17,7 +17,7 @@ export default function SectionFaq() {
         <Faq
             icon="👥"
             question="Who is responsible for 613?" 
-            answer='Currently, 613 is run by a single individual. Copy, Design, Code - everything is done is done one a part of person. To get involved just email us <a href="mailto:welcome@613.news"> welcome@613.news</a> and we can work together.'
+            answer='Currently, 613 is run by a single individual. Copy, Design, Code - everything is done on one a part of person. To get involved just email us <a href="mailto:welcome@613.news"> welcome@613.news</a> and we can work together.'
         />
         <Faq
             icon="💌"
