@@ -22,7 +22,7 @@ export default () => {
 
 
   return (
-    <div >
+    <div className='wrapper'>
        <div className="notification"> 
       {state === "ERROR" && (
         <p className="notification-error">{errorMessage}</p>
@@ -56,20 +56,12 @@ export default () => {
      
       <style jsx>{` 
 
-        label {
-          position: absolute;
-          left: 1.4rem;
-          font-size: 25px; 
-          top: 0.5rem;
-          cursor: pointer;
-          color: #C0C0C0;
-          transition: 0.3s;
+       
+        .wrapper {
+          display: grid;
+          justify-content: center;
         }
-
-        .active{
-          font-size: 15px;
-          color: black
-        }
+      
 
         .link {
           color: #38D09A;
@@ -81,7 +73,7 @@ export default () => {
 
         .notification {
           text-align: center;
-          margin-top: 3rem;
+          
           
           background-color: #white;
           font-size: 18px; 
@@ -97,67 +89,73 @@ export default () => {
           color: #38D09A;
         }
       
+        .link {
+          color: #38D09A;
+        }
+        .button-loading {
+            color: black
+          }
+        .notification {
+          text-align: center;
+          
+          
+          background-color: #white;
+          font-size: 18px; 
+          font-family: Courier;
+          border-radius: 6px;
+        }
+        .notification-error {
+          color: #D03838;
+        }
+        .notification-success {
+          color: #38D09A;
+        }
+      
         .inputDiv {
-          padding-top: 1rem;
+          max-width: 480px;
           display: flex;
-          position: relative;
+          align-items: center;
           justify-content: center;
-          padding: 0.4rem;
+        }
+        .inputDiv input{
+          padding: 0.5rem 1rem;
+          height: 49.1px;  
           min-width: 125px;    
           width:100%;
-          font-size: max(20px);      
-          text-align: center;
-          border: none;
-          border-radius: 15px ;  
-          border: 1.4px solid #D0D0D0;  
-          transition: 0.3s;
-        }
-
-        .inputDiv input{
-          
-          min-width: 125px;    
-          width:85%;
           font-size: max(22px);      
           text-align: left;
           border: none;
-          border-radius: 15px ;  
-          padding-left: 1rem;
+          border-radius: 10px ;  
+          border: 1.4px solid #D0D0D0;  
           transition: 0.3s;
+          font-family: EB Garamond;
         }
         .inputDiv input:focus{
-          /* border: 1.4px solid #D0D0D0;
+          border: 1.4px solid #D0D0D0;
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);   
-          outline: none;  */
-          outline: none;
-          font-size: max(22px);  
+          outline: none; 
         }
-
-        input:focus::-moz-placeholder {
-              color: black;
-              
-              padding: 0.1rem;
-          }
-
         .inputDiv input[type=text]{
           
         }
       
         .inputDiv button {
-         
+          margin: 0 0 0 0.5rem;
           border: none;
-          
-          border-radius: 15px;
+          border-radius: 10px;
           cursor: pointer;
           padding: 0.5rem;
-          min-width: 125px;    
-          width: max(25%, 250px);
-          font-size:  22px;   
+          min-width: 100px;    
+          width: max(5%, 100px);
+          font-size:  22px; 
+          height: 49.1px;  
           font-weight: 400;   
           text-align: center;
           transition: 0.3s;
           background: black;
           color: white;
           border: 1.4px solid black; 
+          font-family: EB Garamond;
         }
       
         .inputDiv button:hover {
