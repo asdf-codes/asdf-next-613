@@ -7,7 +7,8 @@ export default function Section(props) {
 
         <style jsx>{`
             .section {
-                min-height: 70vh
+                min-height: 100vh;
+                display: grid;
             }
         `}</style>
         </>

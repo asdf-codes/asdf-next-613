@@ -24,7 +24,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      {/* <header className={styles.header}>
         
           <>
             <img
@@ -32,12 +32,12 @@ export default function Layout({ children, home }) {
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
-            {/* <h2 className={utilStyles.heading2Xl}></h2> */}
+            <h2 className={utilStyles.heading2Xl}></h2> 
             <ChangingText/>
             
           </>
         
-      </header>
+      </header> */}
       <main>{children}</main>
       {/* {!home && (
         <div className={styles.backToHome}>

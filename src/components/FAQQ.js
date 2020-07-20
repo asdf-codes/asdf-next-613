@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react'
 
-export const Faq = (props) => {
+export const Q = (props) => {
 
     const [setActive, setActiveState] = useState("");
     const [setHeight, setHeightState] = useState("0px")
@@ -58,9 +58,9 @@ export const Faq = (props) => {
             }
 
             .accordion__title {
-                font-family: "arial";
-                font-weight: normal;
-                font-size: 20px;
+                font-family: EB Garamond;
+                font-weight: 500;
+                font-size: 22px;
                 color: black;
                 font-weight: ;
                 padding-left: 1rem;
@@ -80,8 +80,8 @@ export const Faq = (props) => {
             }
 
             .accordion__text {
-                font-family: sans-serif;
-                font-size: 18px;
+                font-family: EB Garamond;
+                font-size: 20px;
                 color: black;
                 max-width: 45rem;
                 text-align: left;

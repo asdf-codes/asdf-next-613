@@ -19,8 +19,10 @@ export default () => {
     }
   };
 
+
+
   return (
-    <div className="flex flex-col items-center w-full p-8 border-gray-500 border-solid border rounded-sm mt-8">
+    <div >
        <div className="notification"> 
       {state === "ERROR" && (
         <p className="notification-error">{errorMessage}</p>
@@ -30,13 +32,15 @@ export default () => {
       )}
       </div>
       <div className="inputDiv">
+       
         <input
           className=""
           type="text"
           placeholder="welcome @ 613.news"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-        />
+          
+        ></input>
         <button
           className={`${
             state === "LOADING" ? "button-loading" : ""
@@ -47,10 +51,25 @@ export default () => {
         >
           Join
         </button>
-        <p className={utilStyles.pp}>For those who ♡ Ottawa and want to make it a better place for everyone</p>
+        
       </div>
      
       <style jsx>{` 
+
+        label {
+          position: absolute;
+          left: 1.4rem;
+          font-size: 25px; 
+          top: 0.5rem;
+          cursor: pointer;
+          color: #C0C0C0;
+          transition: 0.3s;
+        }
+
+        .active{
+          font-size: 15px;
+          color: black
+        }
 
         .link {
           color: #38D09A;
@@ -81,50 +100,71 @@ export default () => {
         .inputDiv {
           padding-top: 1rem;
           display: flex;
-          flex-direction: column;
+          position: relative;
           justify-content: center;
-        }
-
-        .inputDiv input{
-          padding: 0.6rem;
+          padding: 0.4rem;
           min-width: 125px;    
           width:100%;
           font-size: max(20px);      
           text-align: center;
           border: none;
-          border-radius: 10px ;  
+          border-radius: 15px ;  
           border: 1.4px solid #D0D0D0;  
           transition: 0.3s;
         }
-        .inputDiv input:focus{
-          border: 1.4px solid #D0D0D0;
-          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);   
-          outline: none; 
+
+        .inputDiv input{
+          
+          min-width: 125px;    
+          width:85%;
+          font-size: max(22px);      
+          text-align: left;
+          border: none;
+          border-radius: 15px ;  
+          padding-left: 1rem;
+          transition: 0.3s;
         }
+        .inputDiv input:focus{
+          /* border: 1.4px solid #D0D0D0;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);   
+          outline: none;  */
+          outline: none;
+          font-size: max(22px);  
+        }
+
+        input:focus::-moz-placeholder {
+              color: black;
+              
+              padding: 0.1rem;
+          }
 
         .inputDiv input[type=text]{
           
         }
       
         .inputDiv button {
-          margin-top: 1rem;
+         
           border: none;
           
-          border-radius: 10px;
+          border-radius: 15px;
           cursor: pointer;
           padding: 0.5rem;
           min-width: 125px;    
-          width: max(100%, 250px);
+          width: max(25%, 250px);
           font-size:  22px;   
           font-weight: 400;   
           text-align: center;
           transition: 0.3s;
-          background: #F0F0F0;
+          background: black;
+          color: white;
+          border: 1.4px solid black; 
         }
       
         .inputDiv button:hover {
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+          background: white;
           color: black;
+          border: 1.4px solid #D0D0D0; 
         }
 
       `}</style>

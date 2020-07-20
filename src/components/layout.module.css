@@ -1,6 +1,6 @@
 .container {
     max-width: 38rem;
-    padding: 4rem 1rem;
+    
     margin: auto;
     display: grid;
     grid-template-rows: 0.5fr 1fr 100px;
