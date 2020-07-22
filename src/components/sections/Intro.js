@@ -7,7 +7,7 @@ export const Intro = () => {
 
         <div className="center">
             <div className="items">
-                <h1 className="dysplay">Ottawa in a <br></br><h1 className="dysplay-bold">Weekely Newsletter</h1> </h1>
+                <h1 className="dysplay">Ottawa in a <br></br><h1 className="dysplay-bold">Weekly Newsletter</h1> </h1>
                 <p >For those who Love Ottawa and want to make it a better place for everyone</p>
                 <Newsletter/>
                 <div className="flex">
