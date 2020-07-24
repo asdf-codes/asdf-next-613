@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Newsletter from '../components/newsletter'
 import Faq from '../components/sections/Faq'
 import Section from '../components/Section'
-import {Intro, Discover, News, Join} from '../components/sections'
+import {Intro, Discover, News, Join, Stat} from '../components/sections'
 
 export default function Home() {
   return (
@@ -20,6 +20,9 @@ export default function Home() {
 
       <Section>
         <News/>
+      </Section>
+      <Section>
+        <Stat/>
       </Section>
       <Section>
         <Join>
