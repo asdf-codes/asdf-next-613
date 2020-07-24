@@ -63,6 +63,7 @@
     weight: 500;
     src: url(/assets/Recoleta-Medium) format('woff'), 
         url(/assets/Recoleta-Medium) format('woff2'),
+        url(/assets/Recoleta-Medium) format('truetype'),
   }
 
   @font-face {
@@ -70,6 +71,7 @@
     weight: normal;
     src: url(/assets/Recoleta-Regular) format('woff'), 
         url(/assets/Recoleta-Regular) format('woff2'),
+        url(/assets/Recoleta-Regular) format('truetype'),
   }
 
   @font-face {
@@ -77,6 +79,7 @@
     weight: 600;
     src: url(/assets/Recoleta-SemiBold) format('woff'), 
         url(/assets/Recoleta-SemiBold) format('woff2'),
+        url(/assets/Recoleta-SemiBold) format('truetype'),
   }
 
 
