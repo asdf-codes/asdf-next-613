@@ -30,7 +30,7 @@ export const Join = (props) => {
 
             h2 {
                 line-height: 1.0;
-                font-family: Recoleta;
+                font-family: Recoleta, EB Garamond, Serif;
                 padding: 1rem;
                 font-weight: 500;
                 font-size: 57.6795px;

@@ -42,7 +42,7 @@ export const News = () => {
 
             h2 {
                 line-height: 1.0;
-                font-family: EB Garamond;                
+                font-family: Recoleta, EB Garamond, Serif;                
                 font-weight: 500;
                 font-size: 57.6795px;
                 line-height: 107.5%;
@@ -58,9 +58,9 @@ export const News = () => {
             }
 
             h3 {
-                font-family: EB Garamond;
+                font-family: Recoleta, EB Garamond, Serif;
                 font-style: normal;
-                font-weight: 500;
+                font-weight: 400;
                 font-size: 22px;
                 line-height: 107.5%;
 

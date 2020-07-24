@@ -97,8 +97,6 @@ export default () => {
           }
         .notification {
           text-align: center;
-          
-          
           background-color: #white;
           font-size: 18px; 
           font-family: Courier;
@@ -112,22 +110,21 @@ export default () => {
         }
       
         .inputDiv {
-          max-width: 480px;
+          max-width: 600px;
           display: flex;
           align-items: center;
           justify-content: center;
         }
         .inputDiv input{
-          padding: 0.4rem 1rem;
-          min-width: 125px;    
-          width:100%;
-          font-size: max(22px);      
+          padding: 0.4rem 1rem;    
+          width: ;
+          font-size: 24px;      
           text-align: left;
           border: none;
           border-radius: 10px ;  
           border: 1.4px solid #D0D0D0;  
           transition: 0.3s;
-          font-family: EB Garamond;
+          font-family: Recoleta, EB Garamond, Serif;
         }
         .inputDiv input:focus{
           border: 1.4px solid #D0D0D0;
@@ -143,18 +140,18 @@ export default () => {
           border: none;
           border-radius: 10px;
           cursor: pointer;
-          padding: 0.5rem;
-          min-width: 100px;    
-          width: max(5%, 100px);
-          font-size:  22px; 
-          height: 46.1px;  
+          padding: 5px;
+            
+          width: max(5vw, 150px);
+          font-size:  25px; 
+          height: 49.1px;  
           font-weight: 400;   
           text-align: center;
           transition: 0.3s;
           background: black;
           color: white;
           border: 1.4px solid black; 
-          font-family: EB Garamond;
+          font-family: Recoleta, EB Garamond, Serif;
         }
       
         .inputDiv button:hover {

@@ -7,11 +7,13 @@ export const Intro = () => {
 
         <div className="center">
             <div className="items">
+                <div className="text">
                 <h1 className="dysplay">Ottawa in a <br></br><h1 className="dysplay-bold">Weekly Newsletter</h1> </h1>
-                <p >For Those Who 💌 Ottawa And Want to Make It A Better Place For 👥 </p>
+                </div>
                 <Newsletter/>
                 <div className="flex">
-                <p>People  ✔ </p><p>Places   ✔ </p><p>News  ✔ </p> 
+                <p >For Those Who 💌 Ottawa And Want to Make It A Better Place For 👥 </p>
+                {/* <p>People  ✔ </p><p>Places   ✔ </p><p>News  ✔ </p>  */}
                 </div>
             </div>
         </div>
@@ -19,10 +21,14 @@ export const Intro = () => {
         
         <style jsx>{`
 
+            .text {
+                padding-bottom: 2rem;
+            }
+
             p {
             color: grey;
             font-size: 18px;
-            margin: 0.5 0rem;
+            margin: 1rem 0rem;
             font-weight: normal;
             }
 
@@ -54,7 +60,7 @@ export const Intro = () => {
             }
 
             .dysplay {
-                font-family: Recoleta;
+                font-family: "Recoleta", EB Garamond, Serif;;
                 font-weight: normal;
                 font-size: min(15vw, 72px);
                 line-height: 107.5%;
@@ -69,7 +75,7 @@ export const Intro = () => {
             .dysplay-bold {
                 display:inline-block;
                 font-weight: 600;
-                font-family: Recoleta;
+                font-family: Recoleta, EB Garamond, Serif;
                 margin: 0;
                 font-size: min(15vw, 72px);
                 line-height: 107.5%;
