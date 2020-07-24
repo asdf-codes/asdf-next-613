@@ -25,12 +25,7 @@ export const Intro = () => {
                 padding-bottom: 2rem;
             }
 
-            p {
-            color: grey;
-            font-size: 18px;
-            margin: 1rem 0rem;
-            font-weight: normal;
-            }
+            
 
             
             .flex{
@@ -39,8 +34,8 @@ export const Intro = () => {
             }
 
             .flex p {
-                padding: 0.5rem 2rem;
-                font-size: 20px;
+                padding: 0.5rem 0;
+                font-size: 25px;
                 color: black;
             }
 
@@ -62,8 +57,8 @@ export const Intro = () => {
             .dysplay {
                 font-family: "Recoleta", EB Garamond, Serif;;
                 font-weight: normal;
-                font-size: min(15vw, 72px);
-                line-height: 107.5%;
+                font-size: min(20vw, 72px);
+                line-height: 90%;
                 display: inline;
                 /* or 74px */
                 text-align: center;
@@ -77,12 +72,12 @@ export const Intro = () => {
                 font-weight: 600;
                 font-family: Recoleta, EB Garamond, Serif;
                 margin: 0;
-                font-size: min(15vw, 72px);
-                line-height: 107.5%;
+                font-size: min(40vw, 100px);
+                line-height: 90.5%;
                 display:inline;
                 /* or 74px */
-                text-align: center;
-                letter-spacing: -0.02em;
+                text-align: right;
+                letter-spacing: ;
             }   
 
             
