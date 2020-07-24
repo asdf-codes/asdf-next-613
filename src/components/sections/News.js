@@ -41,6 +41,7 @@ export const News = () => {
             }
 
             h2 {
+                line-height: 1.0;
                 font-family: EB Garamond;                
                 font-weight: 500;
                 font-size: 57.6795px;
@@ -50,9 +51,7 @@ export const News = () => {
                 /* or 74px */
                 text-align: center;
                 letter-spacing: -0.02em;
-
-
-            }
+          }
 
             .width {
                 max-width: 480px;

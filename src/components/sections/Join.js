@@ -29,8 +29,9 @@ export const Join = (props) => {
             }
 
             h2 {
-                font-family: EB Garamond;
-                
+                line-height: 1.0;
+                font-family: Recoleta;
+                padding: 1rem;
                 font-weight: 500;
                 font-size: 57.6795px;
                 line-height: 107.5%;

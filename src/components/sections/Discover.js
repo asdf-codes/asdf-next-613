@@ -37,6 +37,7 @@ export const Discover = () => {
             }
 
             h2 {
+                line-height: 1.0;
                 font-family: EB Garamond;
                 font-weight: 500;
                 

@@ -8,7 +8,7 @@ export const Intro = () => {
         <div className="center">
             <div className="items">
                 <h1 className="dysplay">Ottawa in a <br></br><h1 className="dysplay-bold">Weekly Newsletter</h1> </h1>
-                <p >For those who Love Ottawa and want to make it a better place for everyone</p>
+                <p >For Those Who 💌 Ottawa And Want to Make It A Better Place For 👥 </p>
                 <Newsletter/>
                 <div className="flex">
                 <p>People  ✔ </p><p>Places   ✔ </p><p>News  ✔ </p> 
@@ -21,7 +21,9 @@ export const Intro = () => {
 
             p {
             color: grey;
-            font-size: 20px;
+            font-size: 18px;
+            margin: 0.5 0rem;
+            font-weight: normal;
             }
 
             
@@ -48,14 +50,13 @@ export const Intro = () => {
             .center {
                 display: grid;
                 align-items: center;
-                height: 70%;
+                height: 100%%;
             }
 
             .dysplay {
-                font-family: EB Garamond;
-                font-style: italic;
+                font-family: Recoleta;
                 font-weight: normal;
-                font-size: 6vh;
+                font-size: min(15vw, 72px);
                 line-height: 107.5%;
                 display: inline;
                 /* or 74px */
@@ -67,11 +68,10 @@ export const Intro = () => {
             }
             .dysplay-bold {
                 display:inline-block;
-                font-weight: bold;
-                font-family: EB Garamond;
-                font-style: italic;
+                font-weight: 600;
+                font-family: Recoleta;
                 margin: 0;
-                font-size: 6vh;
+                font-size: min(15vw, 72px);
                 line-height: 107.5%;
                 display:inline;
                 /* or 74px */

@@ -38,7 +38,7 @@ export default function Faq() {
         <style jsx>{`
             .h1 {
                 
-             
+                line-height: 1.0;
                 font-weight: 500;
                 font-size: 57.6795px;
             }

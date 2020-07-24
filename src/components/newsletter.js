@@ -118,8 +118,7 @@ export default () => {
           justify-content: center;
         }
         .inputDiv input{
-          padding: 0.5rem 1rem;
-          height: 49.1px;  
+          padding: 0.4rem 1rem;
           min-width: 125px;    
           width:100%;
           font-size: max(22px);      
@@ -148,7 +147,7 @@ export default () => {
           min-width: 100px;    
           width: max(5%, 100px);
           font-size:  22px; 
-          height: 49.1px;  
+          height: 46.1px;  
           font-weight: 400;   
           text-align: center;
           transition: 0.3s;

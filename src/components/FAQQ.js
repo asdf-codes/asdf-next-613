@@ -58,8 +58,8 @@ export const Q = (props) => {
             }
 
             .accordion__title {
-                font-family: EB Garamond;
-                font-weight: 500;
+                font-family: Recoleta;
+                font-weight: 400;
                 font-size: 22px;
                 color: black;
                 font-weight: ;
@@ -80,7 +80,7 @@ export const Q = (props) => {
             }
 
             .accordion__text {
-                font-family: EB Garamond;
+                font-family: Recoleta;
                 font-size: 20px;
                 color: black;
                 max-width: 45rem;
