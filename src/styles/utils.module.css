@@ -59,8 +59,9 @@
   }
 
   @font-face {
-    font-family: Recoleta;
+    font-family: 'Recoleta';
     weight: 500;
+    font-display: swap;
     src: url('/assets/Recoleta-Medium.eot');
     src:
         url('/assets/Recoleta-Medium.woff') format('woff'), 
@@ -69,8 +70,9 @@
   }
 
   @font-face {
-    font-family: Recoleta;
-    weight: normal;
+    font-family: 'Recoleta';
+    weight: regular;
+    font-display: swap;
     src: url('/assets/Recoleta-Regular.eot');
     src:
         url('/assets/Recoleta-Regular.woff') format('woff'), 
@@ -79,8 +81,9 @@
   }
 
   @font-face {
-    font-family: Recoleta;
+    font-family: 'Recoleta';
     weight: 600;
+    font-display: swap;
     src: url('/assets/Recoleta-SemiBold.eot');
     src:
         url('/assets/Recoleta-SemiBold.woff') format('woff'), 
