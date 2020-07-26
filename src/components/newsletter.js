@@ -124,7 +124,7 @@ export default () => {
           border-radius: 10px ;  
           border: 1.4px solid #D0D0D0;  
           transition: 0.3s;
-          font-family: Recoleta, EB Garamond, Serif;
+          font-family: 'Recoleta', EB Garamond, Serif;
         }
         .inputDiv input:focus{
           border: 1.4px solid #D0D0D0;

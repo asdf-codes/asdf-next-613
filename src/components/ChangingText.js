@@ -3,7 +3,7 @@ import React from 'react'
 export const ChangingText = () => {
     return(
         <div className="wrapper">
-            <h1><span></span></h1>
+            {/* <h1><span></span></h1> */}
             <p className="sellingPoint"> "They just send you a newsletter once a week. No spam. No advertizing. No bull💩."</p>
         <style jsx>{`
         

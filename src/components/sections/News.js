@@ -42,7 +42,7 @@ export const News = () => {
 
             h2 {
                 line-height: 1.0;
-                font-family: Recoleta, EB Garamond, Serif;                
+                font-family: 'Recoleta', EB Garamond, Serif;                
                 font-weight: 500;
                 font-size: 57.6795px;
                 line-height: 107.5%;

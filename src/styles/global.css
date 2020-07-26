@@ -29,3 +29,36 @@ img {
     max-width: 100%;
     display: block
 }
+
+@font-face {
+    font-family: 'Recoleta';
+    weight: 500;
+    font-display: swap;
+    src: url('/assets/Recoleta-Medium.eot');
+    src:
+        url('/assets/Recoleta-Medium.woff') format('woff'), 
+        url('/assets/Recoleta-Medium.woff2') format('woff2'),
+        url('/assets/Recoleta-Medium.ttf') format('truetype'),
+  }
+
+  @font-face {
+    font-family: 'Recoleta';
+    weight: regular;
+    font-display: swap;
+    src: url('/assets/Recoleta-Regular.eot');
+    src:
+        url('/assets/Recoleta-Regular.woff') format('woff'), 
+        url('/assets/Recoleta-Regular.woff2') format('woff2'),
+        url('/assets/Recoleta-Regular.ttf') format('truetype'),
+  }
+
+  @font-face {
+    font-family: 'Recoleta';
+    weight: 600;
+    font-display: swap;
+    src: url('/assets/Recoleta-SemiBold.eot');
+    src:
+        url('/assets/Recoleta-SemiBold.woff') format('woff'), 
+        url('/assets/Recoleta-SemiBold.woff2') format('woff2'),
+        url('/assets/Recoleta-SemiBold.ttf') format('truetype'),
+  }
